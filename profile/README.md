@@ -45,7 +45,7 @@ TIINGO_TOKEN=your_actual_token_here
 
 ```bash
 # 1. 레포지토리 클론
-git clone https://github.com/DKUOpenSource-SABU/SABU-Frontend.git
+git clone https://github.com/DKUOpenSource-SABU/Frontend.git
 cd SABU-Frontend
 
 # 2. 의존성 설치
@@ -60,7 +60,7 @@ npm start
 ## 🐍 백엔드 실행 방법 (FastAPI)
 ```bash
 # 1. 레포지토리 클론
-git clone https://github.com/DKUOpenSource-SABU/SABU-Backend.git
+git clone https://github.com/DKUOpenSource-SABU/Backend.git
 cd SABU-Backend
 
 # 2. 가상환경 생성 및 활성화
