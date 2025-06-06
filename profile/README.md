@@ -10,54 +10,6 @@
 
 ---
 
-## 기능 미리보기
-
-### 🔍 티커 기반 종목 검색
-![메인 화면](https://github.com/user-attachments/assets/a18e21f4-e752-43e1-9238-d0d10b561a85)
-
----
-
-### 🏆 리더보드
-![리더보드](https://github.com/user-attachments/assets/b684bfd4-b9ab-4097-b777-392c76d74a23)
-
----
-
-### 🧠 포트폴리오 추천
-![종목 추천](https://github.com/user-attachments/assets/61701a1e-4a3e-42e1-8a2d-56b9aed0a885)
-
----
-
-### 📈 주가 정보 시각화 제공
-![그래프](https://github.com/user-attachments/assets/97f2408c-5446-4980-a04b-170c53077e22)
-
----
-
-### 📰 뉴스 감정 분석
-![감정분석](https://github.com/user-attachments/assets/9ca53201-c521-4ef5-a208-81f314d256f6)
-
----
-
-### 📊 자동 클러스터링
-![클러스터링](https://github.com/user-attachments/assets/d5430a05-3bb5-4ecb-a5e3-7e1a99fcb114)
-
----
-
-### 🧪 전략 백테스트
-![백테스팅](https://github.com/user-attachments/assets/18d02849-3e00-4fff-b017-9800960fb7dc)
-
----
-
-
-## 📦 레포지토리 구성
-
-| 레포지토리 | 설명 |
-|------------|------|
-| [`SABU-Frontend`](https://github.com/DKUOpenSource-SABU/Frontend) | 사용자 UI 대시보드 (React 기반) |
-| [`SABU-Backend`](https://github.com/DKUOpenSource-SABU/Backend)  | 백엔드 서버 및 투자 시뮬레이션 API (FastAPI) |
-| [`SABU-Docs`](https://github.com/DKUOpenSource-SABU/Docs) | 각종 문서화 레포지토리 |
-
----
-
 ## ✅ 실행 전 사전 준비 사항
 
 - 백엔드 실행 전, `./data/stock` 디렉토리에 **주식 정보 CSV 파일**을 넣어야 합니다.
@@ -117,3 +69,51 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
 > Swagger UI는 http://localhost:8000/docs 에서 확인할 수 있습니다.
+
+## 기능 미리보기
+
+### 🔍 티커 기반 종목 검색
+![메인 화면](https://github.com/user-attachments/assets/a18e21f4-e752-43e1-9238-d0d10b561a85)
+
+---
+
+### 🏆 리더보드
+![리더보드](https://github.com/user-attachments/assets/b684bfd4-b9ab-4097-b777-392c76d74a23)
+
+---
+
+### 🧠 포트폴리오 추천
+![종목 추천](https://github.com/user-attachments/assets/61701a1e-4a3e-42e1-8a2d-56b9aed0a885)
+
+---
+
+### 📈 주가 정보 시각화 제공
+![그래프](https://github.com/user-attachments/assets/97f2408c-5446-4980-a04b-170c53077e22)
+
+---
+
+### 📰 뉴스 감정 분석
+![감정분석](https://github.com/user-attachments/assets/9ca53201-c521-4ef5-a208-81f314d256f6)
+
+---
+
+### 📊 자동 클러스터링
+![클러스터링](https://github.com/user-attachments/assets/d5430a05-3bb5-4ecb-a5e3-7e1a99fcb114)
+
+---
+
+### 🧪 전략 백테스트
+![백테스팅](https://github.com/user-attachments/assets/18d02849-3e00-4fff-b017-9800960fb7dc)
+
+---
+
+
+## 📦 레포지토리 구성
+
+| 레포지토리 | 설명 |
+|------------|------|
+| [`SABU-Frontend`](https://github.com/DKUOpenSource-SABU/Frontend) | 사용자 UI 대시보드 (React 기반) |
+| [`SABU-Backend`](https://github.com/DKUOpenSource-SABU/Backend)  | 백엔드 서버 및 투자 시뮬레이션 API (FastAPI) |
+| [`SABU-Docs`](https://github.com/DKUOpenSource-SABU/Docs) | 각종 문서화 레포지토리 |
+
+---
