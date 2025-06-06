@@ -10,6 +10,16 @@
 
 ---
 
+## 📦 레포지토리 구성
+
+| 레포지토리 | 설명 |
+|------------|------|
+| [`SABU-Frontend`](https://github.com/DKUOpenSource-SABU/Frontend) | 사용자 UI 대시보드 (React 기반) |
+| [`SABU-Backend`](https://github.com/DKUOpenSource-SABU/Backend)  | 백엔드 서버 및 투자 시뮬레이션 API (FastAPI) |
+| [`SABU-Docs`](https://github.com/DKUOpenSource-SABU/Docs) | 각종 문서화 레포지토리 |
+
+---
+
 ## ✅ 실행 전 사전 준비 사항
 
 - 백엔드 실행 전, `./data/stock` 디렉토리에 **주식 정보 CSV 파일**을 넣어야 합니다.
@@ -104,16 +114,5 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ### 🧪 전략 백테스트
 ![백테스팅](https://github.com/user-attachments/assets/18d02849-3e00-4fff-b017-9800960fb7dc)
-
----
-
-
-## 📦 레포지토리 구성
-
-| 레포지토리 | 설명 |
-|------------|------|
-| [`SABU-Frontend`](https://github.com/DKUOpenSource-SABU/Frontend) | 사용자 UI 대시보드 (React 기반) |
-| [`SABU-Backend`](https://github.com/DKUOpenSource-SABU/Backend)  | 백엔드 서버 및 투자 시뮬레이션 API (FastAPI) |
-| [`SABU-Docs`](https://github.com/DKUOpenSource-SABU/Docs) | 각종 문서화 레포지토리 |
 
 ---
