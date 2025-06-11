@@ -46,7 +46,7 @@ TIINGO_TOKEN=your_actual_token_here
 ```bash
 # 1. 레포지토리 클론
 git clone https://github.com/DKUOpenSource-SABU/Frontend.git
-cd SABU-Frontend
+cd Frontend
 
 # 2. 의존성 설치
 npm install
@@ -61,7 +61,7 @@ npm start
 ```bash
 # 1. 레포지토리 클론
 git clone https://github.com/DKUOpenSource-SABU/Backend.git
-cd SABU-Backend
+cd Backend
 
 # 2. 가상환경 생성 및 활성화
 python -m venv .venv
